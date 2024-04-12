@@ -7,13 +7,21 @@
     <link rel="stylesheet" href="/css/fontawesome.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Learn Font-end Development</title>
   </head>
   <body class="bg-secondary">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark">
       <div class="container">
-        <a href="#" class="navbar-brand">Learn Front-end Development</a>
+        <a href="#" class="navbar-brand text-dark"
+          >Learn Front-end Development</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -28,10 +36,18 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="index.html" aria-current="page" class="nav-link">Home</a>
+              <a
+                href="index.html"
+                aria-current="page"
+                class="nav-link text-dark"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a href="#introduction" aria-current="page" class="nav-link"
+              <a
+                href="#introduction"
+                aria-current="page"
+                class="nav-link text-dark"
                 >Sections</a
               >
             </li>
@@ -41,7 +57,7 @@
     </nav>
 
     <main class="hero">
-      <div class="container my-6">
+      <div class="container my-md-5 my-3">
         <div class="row">
           <div class="col-md-6">
             <h1 class="display-4 fw-bold">
@@ -55,7 +71,7 @@
               >Start your career</a
             >
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mt-3 mt-md-0">
             <div class="image-container">
               <img
                 src="imgs/undraw_static_assets_rpm6.svg"
@@ -70,9 +86,9 @@
 
     <!--Introduction to Front end Development -->
     <section class="" id="introduction">
-      <div class="container my-7">
+      <div class="container my-5 my-md-8">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 d-none d-md-block">
             <div class="image-container">
               <img
                 src="imgs/undraw_online_page_re_lhgx.svg"
@@ -102,7 +118,7 @@
 
     <!--Programming with JavaScript -->
     <section class="">
-      <div class="container my-7">
+      <div class="container my-5 my-md-7">
         <div class="row">
           <div class="col-md-6">
             <a href="js.html"
@@ -118,7 +134,7 @@
             </h4>
             <a href="js.html" class="btn btn-primary">Learn more</a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mt-md-0 d-none d-md-block">
             <div class="image-container">
               <img src="imgs/js.svg" alt="" class="img-fluid" />
             </div>
@@ -129,14 +145,14 @@
 
     <!-- Version Control -->
     <section class="">
-      <div class="container my-7">
+      <div class="container my-5 my-md-8">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 d-none d-md-block">
             <div class="image-container">
               <img src="imgs/vc.svg" alt="" class="img-fluid" />
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mt-md-0">
             <a href="version.html"
               ><h3 class="text-primary">Version Control</h3></a
             >
@@ -156,9 +172,9 @@
     </section>
     <!--HTML and CSS in Depth -->
     <section class="">
-      <div class="container my-7">
+      <div class="container my-5 my-md-7">
         <div class="row">
-          <div class="col-md-6 mt-5">
+          <div class="col-md-6">
             <a href="htmlcssdepth.html"
               ><h3 class="text-primary">HTML and CSS in Depth</h3></a
             >
@@ -169,7 +185,7 @@
             </h4>
             <a href="" class="btn btn-primary">Learn more</a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mt-5 mt-md-0 d-none d-md-block">
             <div class="image-container">
               <img src="imgs/ht.svg" alt="" class="img-fluid" />
             </div>
@@ -177,7 +193,24 @@
         </div>
       </div>
     </section>
+    <!-- Footer -->
 
+    <footer class="bg-secondary text-white mt-7 mt-md-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link link-dark">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#sections" class="nav-link link-dark">Sections</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="script.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
